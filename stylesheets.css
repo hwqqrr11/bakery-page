@@ -133,7 +133,7 @@ body {
   left: 79%;
   transform-origin: -30%;
   animation-name: wheel;
-  animation-duration: 10s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -149,34 +149,42 @@ body {
   left: 55%;
   transform-origin: left;
   animation-name: wheel;
-  animation-duration: 10s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
+.line.thick.first {
+  transform: rotate(45deg);
+}
+
 .line.thick.second {
-  transform: rotate(90deg);
+  transform: rotate(135deg);
 }
 
 .line.thick.third {
-  transform: rotate(180deg);
+  transform: rotate(225deg);
 }
 
 .line.thick.fourth {
-  transform: rotate(270deg);
+  transform: rotate(320deg);
+}
+
+.line.thin.first {
+  transform: rotate(45deg);
 }
 
 
 .line.thin.second {
-  transform: rotate(90deg);
+  transform: rotate(135deg); 
 }
 
 .line.thin.third {
-  transform: rotate(180deg);
+  transform: rotate(225deg);
 }
 
 .line.thin.fourth {
-  transform: rotate(270deg);
+  transform: rotate(320deg);
 }
 
 
@@ -267,6 +275,7 @@ li {
   0% {
      transform: rotate(0deg);
    }
+
    100% {
      transform: rotate(360deg);
    }
